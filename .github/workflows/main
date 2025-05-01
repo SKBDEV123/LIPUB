@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adderly.Top - Технобиотер Марк Аддерли</title>
+    <style>
+        /* Общие стили */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Шапка сайта */
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        
+        header p {
+            margin: 10px 0 0;
+            font-size: 1.1em;
+        }
+        
+        /* Основное содержимое */
+        main {
+            padding: 40px 0;
+        }
+        
+        .welcome-section {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .welcome-section h2 {
+            color: #2c3e50;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+        }
+        
+        .welcome-section p {
+            font-size: 1.1em;
+            max-width: 800px;
+            margin: 0 auto 30px;
+        }
+        
+        /* Секции с ссылками */
+        .links-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        
+        .link-card {
+            background-color: white;
+            border-radius: 8px;
+            padding: 25px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            text-align: center;
+        }
+        
+        .link-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .link-card h3 {
+            color: #2c3e50;
+            margin-top: 0;
+            font-size: 1.3em;
+        }
+        
+        .link-card a {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-top: 15px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        
+        .link-card a:hover {
+            background-color: #2980b9;
+        }
+        
+        /* Видео секция */
+        .video-section {
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        
+        .video-section h2 {
+            color: #2c3e50;
+            font-size: 1.8em;
+            margin-top: 0;
+        }
+        
+        .video-placeholder {
+            background-color: #e0e0e0;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        
+        .video-link {
+            display: inline-block;
+            background-color: #ff0000;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        
+        .video-link:hover {
+            background-color: #cc0000;
+        }
+        
+        /* Подвал */
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+        }
+        
+        .footer-info {
+            margin-bottom: 20px;
+        }
+        
+        .copyright {
+            font-size: 0.9em;
+            opacity: 0.8;
+        }
+        
+        /* Адаптивность */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+            
+            .links-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header>
+        <div class="container">
+            <h1>Добро пожаловать на Adderly.Top!</h1>
+            <p>Это сайт Марка Аддерли - технобиотера на YouTube.</p>
+        </div>
+    </header>
+    
+    <!-- Основное содержимое -->
+    <main class="container">
+        <section class="welcome-section">
+            <h2>Здесь вы можете скачать мои приложения, сборки Windows, Windows PE, разные программы, и многое другое!</h2>
+        </section>
+        
+        <!-- Секции с ссылками -->
+        <div class="links-grid">
+            <div class="link-card">
+                <h3>Сборки от Аддерли</h3>
+                <a href="#">Скачать MakuTweaker</a>
+            </div>
+            
+            <div class="link-card">
+                <h3>Windows PE от Аддерли</h3>
+                <a href="#">Сойт от Аддерли</a>
+            </div>
+            
+            <div class="link-card">
+                <h3>Обо мне</h3>
+                <a href="#">Поддержать</a>
+            </div>
+            
+            <div class="link-card">
+                <a href="#">Скачать программы</a>
+            </div>
+        </div>
+        
+        <!-- Разделитель -->
+        <hr>
+        
+        <!-- Видео секция -->
+        <section class="video-section">
+            <h2>Самое актуальное видео на YouTube канале</h2>
+            <div class="video-placeholder">
+                [Превью видео]
+            </div>
+            <h3>УСТАНОВИЛ WINDOWS 11 И СТАНЦОВАЛ. И НАДО ИХ НА МАСЬЮ!</h3>
+            <a href="#" class="video-link">Посмотреть на YouTube</a>
+        </section>
+    </main>
+    
+    <!-- Подвал сайта -->
+    <footer>
+        <div class="container">
+            <div class="footer-info">
+                <p>Марк Аддерли</p>
+                <p>0</p>
+            </div>
+            <div class="copyright">
+                © 2025 Adderly.Top // Марк Аддерли
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
